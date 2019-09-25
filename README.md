@@ -1,5 +1,5 @@
 # SendMail
-Hey! This project uses Python's GUI module tkinter and mail transfer module SMTPlib to implement a GUI that can be used to send a mail.
+Hey! This project uses Python's GUI module tkinter and mail transfer module SMTPlib to implement a GUI that can be used to send mails.
 
 CRITICAL ReadMe: Python's SMTPlib requires you to enable access to 'Less secure apps' on your Gmail account. This is to protect your 
 Email being exploited. But this project implements Transport Layer Security (TLS Security) encryption and peer authentication to keep your
