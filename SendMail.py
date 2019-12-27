@@ -64,7 +64,7 @@ class compose():
             obj.login(email,pwd)
             obj.sendmail(email,self.reciever,self.message)
         except:
-            print('error in sending mail, read the ReadMe file')
+            messagebox.showinfo("ERROR","Error in sending mail, try checking the ReadMe.txt file")
     def logout(self):
         self.master.destroy()
 def main():
